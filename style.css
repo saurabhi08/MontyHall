@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.doors {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.door {
+  font-size: 1.2rem;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.reset {
+  display: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
